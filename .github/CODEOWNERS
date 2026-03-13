@@ -1,0 +1,22 @@
+# Default ownership
+* @robert
+
+# Governance and foundation docs
+/docs/00_foundation/ @robert
+/docs/01_governance/ @robert
+
+# Portfolio, work orders, and reporting
+/docs/02_portfolio/ @robert
+/docs/03_work_orders/ @robert
+/docs/06_reporting/ @robert
+
+# Templates and operations
+/docs/04_operations/ @robert
+/docs/07_templates/ @robert
+
+# AI workforce model
+/docs/05_ai_workforce/ @robert
+
+# Venture and logs areas
+/ventures/ @robert
+/logs/ @robert
