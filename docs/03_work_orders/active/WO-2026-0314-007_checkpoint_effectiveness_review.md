@@ -91,6 +91,18 @@ and identify any control gaps.
 
 Planned as follow-up control action from `DEC-2026-0314-002`.
 
+### Milestone Plan
+
+- 2026-04-14: Open one-month review window and compile audit dataset.
+- 2026-04-18: Complete trend and root-cause analysis worksheet.
+- 2026-04-21: Close work order and log effectiveness decision.
+
+### Preparation Status
+
+- [x] Worksheet prepared (`CHECKPOINT_EFFECTIVENESS_REVIEW_WORKSHEET.md`)
+- [x] Governance schedule published (`GOVERNANCE_EXECUTION_CALENDAR_Q2_2026.md`)
+- [ ] Four-sample audit trend dataset ready
+
 ## Completion Check
 
 - [ ] Acceptance criteria met

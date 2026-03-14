@@ -91,6 +91,18 @@ decision-useful, and aligned to current delivery context.
 
 Planned as follow-up control action from `DEC-2026-0314-001`.
 
+### Milestone Plan
+
+- 2026-03-21: Capture second weekly report and populate worksheet.
+- 2026-03-28: Draft threshold recommendation and decision text.
+- 2026-03-31: Close work order and update linked logs.
+
+### Preparation Status
+
+- [x] Worksheet prepared (`KPI_THRESHOLD_FITNESS_REVIEW_WORKSHEET.md`)
+- [x] Governance schedule published (`GOVERNANCE_EXECUTION_CALENDAR_Q2_2026.md`)
+- [ ] Two-report comparison dataset ready
+
 ## Completion Check
 
 - [ ] Acceptance criteria met
