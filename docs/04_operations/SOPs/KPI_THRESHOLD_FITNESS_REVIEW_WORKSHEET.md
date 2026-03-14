@@ -35,10 +35,10 @@ WS-KPI-2026-0314-001
 ## Proposed Updates
 
 - KPI ID:
-	Current target:
-	Proposed target:
-	Reason:
-	Impact:
+- Current target:
+- Proposed target:
+- Reason:
+- Impact:
 
 ## Decision Outcome
 

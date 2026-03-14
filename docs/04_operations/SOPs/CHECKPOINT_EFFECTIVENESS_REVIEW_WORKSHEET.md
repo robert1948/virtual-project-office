@@ -15,9 +15,12 @@ WS-CCR-2026-0314-001
 
 ## Audit Sample Summary
 
-| Audit ID | Date | Sample Size | Pass Count | Gap Count | Compliance Rate |
-| --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
+- Audit ID:
+- Date:
+- Sample size:
+- Pass count:
+- Gap count:
+- Compliance rate:
 
 ## Trend Assessment
 
@@ -28,9 +31,10 @@ WS-CCR-2026-0314-001
 
 ## Root-Cause Findings
 
-| Gap Pattern | Likely Cause | Frequency | Proposed Action |
-| --- | --- | --- | --- |
-|  |  |  |  |
+- Gap pattern:
+- Likely cause:
+- Frequency:
+- Proposed action:
 
 ## Effectiveness Decision
 
