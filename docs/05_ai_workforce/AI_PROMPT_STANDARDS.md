@@ -14,6 +14,9 @@ to capture plain-language requirements before drafting technical specs.
 Reference sample:
 `docs/07_templates/CUSTOMER_ACCOUNTING_AUTOMATION_INTAKE_SAMPLE_SMALL_BUSINESS.md`
 
+Retail sample:
+`docs/07_templates/CUSTOMER_ACCOUNTING_AUTOMATION_INTAKE_SAMPLE_RETAIL_POS.md`
+
 Minimum required sections:
 
 - Purpose and outcomes
