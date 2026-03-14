@@ -1,0 +1,10 @@
+title = "virtual-project-office gitleaks config"
+
+[allowlist]
+description = "Allow local development placeholders"
+paths = [
+  '''^\.env\.example$''',
+]
+regexes = [
+  '''projectoffice_dev_password''',
+]
