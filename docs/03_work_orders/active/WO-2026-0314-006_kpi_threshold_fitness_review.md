@@ -101,6 +101,8 @@ Planned as follow-up control action from `DEC-2026-0314-001`.
 
 - [x] Worksheet prepared (`KPI_THRESHOLD_FITNESS_REVIEW_WORKSHEET.md`)
 - [x] Governance schedule published (`GOVERNANCE_EXECUTION_CALENDAR_Q2_2026.md`)
+- [x] Pre-flight checklist prepared (`WO-2026-0314-006_PRE_FLIGHT_CHECKLIST.md`)
+- [x] Weekly report workflow runbook published (`WEEKLY_KPI_REPORT_WORKFLOW.md`)
 - [ ] Two-report comparison dataset ready
 
 ## Completion Check

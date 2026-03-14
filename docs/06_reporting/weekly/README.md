@@ -11,3 +11,7 @@ Weekly operational and delivery reporting.
 ## Published Reports
 
 - `WR-2026-0314-001_weekly_kpi_snapshot.md`
+
+## Draft Reports
+
+- `WR-2026-0321-002_weekly_kpi_snapshot_draft.md`
