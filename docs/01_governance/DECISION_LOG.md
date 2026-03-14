@@ -239,3 +239,51 @@ Improves consistency, comparability, and governance quality in reporting.
 
 - [ ] Pilot first weekly report using new template
 - [ ] Validate founder review pack completeness next cycle
+
+### DEC-2026-0314-001
+
+- Date: 2026-03-14
+- Status: Approved
+- Owner: Robert
+- Approver: Robert
+- Area: Portfolio
+- Summary: Approved KPI dashboard requirement baseline for `VNT-003`.
+
+#### Context (DEC-2026-0314-001)
+
+KPI definitions for `PLN-2026-004` were not yet standardized, creating risk of
+inconsistent reporting and low-confidence performance decisions.
+
+#### Options Considered (DEC-2026-0314-001)
+
+1. Continue with ad hoc KPI definitions in each report
+2. Approve a single versioned KPI requirements baseline
+
+#### Decision (DEC-2026-0314-001)
+
+Adopt `docs/02_portfolio/KPI_DASHBOARD_REQUIREMENTS.md` as the canonical KPI
+requirements baseline for `VNT-003` reporting.
+
+#### Rationale (DEC-2026-0314-001)
+
+Creates a consistent KPI contract with ownership, quality controls, and change
+governance before dashboard implementation.
+
+#### Impact (DEC-2026-0314-001)
+
+- Scope impact: KPI definitions, formulas, and targets are standardized
+- Timeline impact: Effective immediately
+- Risk impact: Reduces KPI ambiguity and reporting drift risk
+- Cost impact: No direct cost
+
+#### Evidence (DEC-2026-0314-001)
+
+- `docs/02_portfolio/KPI_DASHBOARD_REQUIREMENTS.md`
+- `docs/03_work_orders/completed/WO-2026-0314-004_kpi_dashboard_requirements.md`
+- `logs/changes/CHG-2026-0314-002.md`
+- `logs/risks/RSK-2026-0314-001.md`
+
+#### Follow-up Actions (DEC-2026-0314-001)
+
+- [ ] Publish first weekly KPI snapshot using approved definitions
+- [ ] Review threshold fitness after two reporting cycles
