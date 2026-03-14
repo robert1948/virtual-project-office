@@ -9,12 +9,14 @@ AI-assisted project office for planning, governance, and structured execution.
 - `docs/00_foundation/VISION_STATEMENT.md` - Canonical vision statement
 - `docs/00_foundation/CORE_VALUES.md` - Core values and operating posture
 - `docs/02_portfolio/PORTFOLIO_MASTER_PLAN.md` - Portfolio planning baseline
+- `project-plan.csv` - Canonical project planning state and priorities
 
 ## Documentation Notes
 
 - Mission and vision source of truth live in
   `docs/00_foundation/MISSION_STATEMENT.md` and
   `docs/00_foundation/VISION_STATEMENT.md`
+- Project planning source of truth lives in `project-plan.csv`
 - Other documents may include short forms for context, but should align
   with these source files
 
@@ -31,3 +33,23 @@ AI-assisted project office for planning, governance, and structured execution.
 - `docs/09_archive/` - Retired and historical records
 - `ventures/` - Venture-specific strategy and delivery areas
 - `logs/` - Decision, risk, and change logs
+
+## Security Scanning
+
+- CI secret scanning runs on pull requests and pushes to `main` via
+  `.github/workflows/secret-scan.yml`
+- Local pre-commit scanning is configured in `.pre-commit-config.yaml`
+- Repository-specific scan tuning is in `.gitleaks.toml`
+
+### Local Setup
+
+```bash
+python3 -m pip install pre-commit
+pre-commit install
+```
+
+### Manual Scan
+
+```bash
+pre-commit run --all-files
+```

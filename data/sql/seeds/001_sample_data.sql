@@ -23,6 +23,19 @@ INSERT INTO work_orders (work_order_code, venture_id, title, status, priority, o
 SELECT
   'WO-2026-0313-002',
   v.id,
+  'Operationalize local PostgreSQL workflow',
+  'completed',
+  'high',
+  'Robert',
+  DATE '2026-03-21'
+FROM ventures v
+WHERE v.venture_code = 'VNT-001'
+ON CONFLICT (work_order_code) DO NOTHING;
+
+INSERT INTO work_orders (work_order_code, venture_id, title, status, priority, owner, due_date)
+SELECT
+  'WO-2026-0313-003',
+  v.id,
   'Finalize reporting templates and cadence',
   'planned',
   'medium',

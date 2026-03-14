@@ -1,0 +1,6 @@
+plan_id,venture_code,initiative,owner,status,priority,start_date,target_date,dependency,success_metric,last_updated,notes
+PLN-2026-001,VNT-001,Stabilize governance-first repository structure,Robert,completed,high,2026-03-13,2026-03-20,,All core governance docs and templates published,2026-03-13,Governance model finalized; templates and sample logs published
+PLN-2026-002,VNT-001,Operationalize local PostgreSQL workflow,Robert,completed,high,2026-03-13,2026-03-21,PLN-2026-001,Database startup seed and reset flow verified,2026-03-13,Verified db-up db-seed db-reset flow with post-reset data checks
+PLN-2026-003,VNT-002,Finalize reporting cadence and templates,Robert,completed,medium,2026-03-18,2026-03-29,PLN-2026-001,Weekly monthly and founder review templates approved,2026-03-13,Cadence policy and weekly monthly founder templates published and approved
+PLN-2026-004,VNT-003,Define venture KPI dashboard requirements,Robert,planned,medium,2026-03-20,2026-03-31,PLN-2026-002,KPI field definitions agreed and versioned,2026-03-13,DataOps test venture planning item
+PLN-2026-005,VNT-001,Implement change-control review checkpoint,Robert,planned,high,2026-03-21,2026-04-04,PLN-2026-001,All major changes linked to CHG records before execution,2026-03-13,Supports governance compliance

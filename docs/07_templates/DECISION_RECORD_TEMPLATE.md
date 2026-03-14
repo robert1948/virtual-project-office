@@ -4,6 +4,12 @@
 
 ## Date
 
+## Status
+
+Proposed | Approved | Rejected | Superseded
+
+## Area
+
 ## Context
 
 ## Decision
@@ -15,3 +21,9 @@
 ## Impact
 
 ## Owner
+
+## Approver
+
+## Evidence
+
+## Follow-up Actions
