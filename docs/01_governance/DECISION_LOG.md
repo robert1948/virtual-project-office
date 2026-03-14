@@ -285,7 +285,7 @@ governance before dashboard implementation.
 
 #### Follow-up Actions (DEC-2026-0314-001)
 
-- [ ] Publish first weekly KPI snapshot using approved definitions
+- [x] Publish first weekly KPI snapshot using approved definitions
 - [ ] Review threshold fitness after two reporting cycles
 
 ### DEC-2026-0314-002
@@ -334,5 +334,5 @@ Major/Critical changes.
 
 #### Follow-up Actions (DEC-2026-0314-002)
 
-- [ ] Add checkpoint audit sample to weekly governance review
+- [x] Add checkpoint audit sample to weekly governance review
 - [ ] Review checkpoint effectiveness after one month
