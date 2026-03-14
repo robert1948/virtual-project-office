@@ -7,6 +7,10 @@ Defines prompt structure, context requirements, and quality checks.
 Use `docs/07_templates/AGENT_SPEC_TEMPLATE.md` when preparing a customer
 agent specification.
 
+For non-technical accounting clients, use:
+`docs/07_templates/CUSTOMER_ACCOUNTING_AUTOMATION_INTAKE_TEMPLATE.md`
+to capture plain-language requirements before drafting technical specs.
+
 Minimum required sections:
 
 - Purpose and outcomes
