@@ -336,3 +336,51 @@ Major/Critical changes.
 
 - [x] Add checkpoint audit sample to weekly governance review
 - [ ] Review checkpoint effectiveness after one month
+
+### DEC-2026-0314-003
+
+- Date: 2026-03-14
+- Status: Approved
+- Owner: Robert
+- Approver: Robert
+- Area: Portfolio
+- Summary: Approved lightweight automation for weekly KPI metric snippet
+  generation.
+
+#### Context (DEC-2026-0314-003)
+
+Weekly KPI reporting needed repeated manual metric counting from
+`project-plan.csv`, increasing effort and inconsistency risk.
+
+#### Options Considered (DEC-2026-0314-003)
+
+1. Keep manual metric collection in each weekly report
+2. Add a small helper script and make target for consistent metric output
+
+#### Decision (DEC-2026-0314-003)
+
+Adopt `scripts/generate_weekly_kpi_snapshot.py` and `make kpi-weekly` as
+standard helper automation for weekly KPI report preparation.
+
+#### Rationale (DEC-2026-0314-003)
+
+Provides a repeatable metric basis with low implementation complexity.
+
+#### Impact (DEC-2026-0314-003)
+
+- Scope impact: Adds KPI utility automation and workflow integration
+- Timeline impact: Effective immediately
+- Risk impact: Reduces manual reporting variance
+- Cost impact: No direct cost
+
+#### Evidence (DEC-2026-0314-003)
+
+- `scripts/generate_weekly_kpi_snapshot.py`
+- `Makefile`
+- `docs/04_operations/runbooks/WEEKLY_KPI_REPORT_WORKFLOW.md`
+- `logs/changes/CHG-2026-0314-004.md`
+
+#### Follow-up Actions (DEC-2026-0314-003)
+
+- [ ] Validate helper output against second weekly report cycle
+- [ ] Review script assumptions when KPI policy changes
