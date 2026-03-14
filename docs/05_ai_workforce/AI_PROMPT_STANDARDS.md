@@ -11,6 +11,9 @@ For non-technical accounting clients, use:
 `docs/07_templates/CUSTOMER_ACCOUNTING_AUTOMATION_INTAKE_TEMPLATE.md`
 to capture plain-language requirements before drafting technical specs.
 
+Reference sample:
+`docs/07_templates/CUSTOMER_ACCOUNTING_AUTOMATION_INTAKE_SAMPLE_SMALL_BUSINESS.md`
+
 Minimum required sections:
 
 - Purpose and outcomes
