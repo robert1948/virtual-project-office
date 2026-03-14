@@ -31,6 +31,10 @@ cp docs/07_templates/WEEKLY_REPORT_TEMPLATE.md \
 - Open high-priority count from active plan/work-order state.
 - Delivery confidence from current operating signals.
 
+```bash
+make kpi-weekly
+```
+
 1. Link evidence.
 
 - Add at least two evidence links to plan/work-order/log artifacts.

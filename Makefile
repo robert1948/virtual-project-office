@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-.PHONY: help lint-md lint-md-fix check clean db-up db-down db-logs db-psql db-backup db-seed db-reset
+.PHONY: help lint-md lint-md-fix check clean db-up db-down db-logs db-psql db-backup db-seed db-reset kpi-weekly
 
 help:
 	@echo "Available targets:"
@@ -14,6 +14,7 @@ help:
 	@echo "  make db-backup    - Create SQL backup in data/backups"
 	@echo "  make db-seed      - Apply sample seed data"
 	@echo "  make db-reset     - Reset schema and reseed (requires CONFIRM=1)"
+	@echo "  make kpi-weekly   - Generate weekly KPI metric snippet"
 	@echo "  make clean        - Remove common local cache files"
 
 lint-md:
@@ -61,6 +62,9 @@ db-reset:
 	@echo "Re-applying base schema..."
 	docker compose exec -T postgres psql -U $${POSTGRES_USER:-projectoffice} -d $${POSTGRES_DB:-projectoffice} < data/sql/init/001_schema.sql
 	$(MAKE) db-seed
+
+kpi-weekly:
+	/home/robert/Development/virtual-project-office/.venv/bin/python scripts/generate_weekly_kpi_snapshot.py
 
 clean:
 	rm -rf .cache .tmp

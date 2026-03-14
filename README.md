@@ -53,3 +53,11 @@ pre-commit install
 ```bash
 pre-commit run --all-files
 ```
+
+## KPI Metrics Helper
+
+Generate a weekly KPI metric snippet from `project-plan.csv`:
+
+```bash
+make kpi-weekly
+```
