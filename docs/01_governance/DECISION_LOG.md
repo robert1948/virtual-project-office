@@ -287,3 +287,52 @@ governance before dashboard implementation.
 
 - [ ] Publish first weekly KPI snapshot using approved definitions
 - [ ] Review threshold fitness after two reporting cycles
+
+### DEC-2026-0314-002
+
+- Date: 2026-03-14
+- Status: Approved
+- Owner: Robert
+- Approver: Robert
+- Area: Governance
+- Summary: Approved a mandatory pre-execution change-control checkpoint for
+  Major and Critical changes.
+
+#### Context (DEC-2026-0314-002)
+
+`PLN-2026-005` required an enforceable checkpoint so high-impact changes could
+not start without approved `CHG` linkage and explicit evidence planning.
+
+#### Options Considered (DEC-2026-0314-002)
+
+1. Continue advisory-only change-control guidance
+2. Introduce mandatory checkpoint with pass/fail criteria
+
+#### Decision (DEC-2026-0314-002)
+
+Adopt mandatory checkpoint controls in policy and work-order template, with a
+published standard for timing, pass criteria, and fail conditions.
+
+#### Rationale (DEC-2026-0314-002)
+
+Improves change-governance discipline and reduces unapproved execution risk for
+Major/Critical changes.
+
+#### Impact (DEC-2026-0314-002)
+
+- Scope impact: High-impact changes require checkpoint pass before execution
+- Timeline impact: Effective immediately
+- Risk impact: Reduces approval and traceability gaps
+- Cost impact: No direct cost
+
+#### Evidence (DEC-2026-0314-002)
+
+- `docs/01_governance/CHANGE_CONTROL.md`
+- `docs/04_operations/standards/CHANGE_CONTROL_REVIEW_CHECKPOINT.md`
+- `docs/03_work_orders/templates/WORK_ORDER_TEMPLATE.md`
+- `logs/changes/CHG-2026-0314-003.md`
+
+#### Follow-up Actions (DEC-2026-0314-002)
+
+- [ ] Add checkpoint audit sample to weekly governance review
+- [ ] Review checkpoint effectiveness after one month

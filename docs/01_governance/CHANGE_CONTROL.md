@@ -37,6 +37,21 @@ Prevent uncontrolled changes and maintain traceable, approved execution.
 5. Execute approved change.
 6. Record outcome and evidence in change log.
 
+## Pre-Execution Checkpoint (Major and Critical)
+
+Before execution starts, the following checkpoint must pass:
+
+1. A linked `CHG` record exists.
+2. Change class is explicitly documented.
+3. Required approver is captured.
+4. Risks and rollback plan are documented.
+5. Evidence plan is documented.
+
+If any checkpoint item is missing, execution is blocked.
+
+Reference standard:
+`docs/04_operations/standards/CHANGE_CONTROL_REVIEW_CHECKPOINT.md`
+
 ## Approval Matrix
 
 - Minor: Area owner approval
@@ -48,6 +63,7 @@ Prevent uncontrolled changes and maintain traceable, approved execution.
 - No undocumented scope changes.
 - No production-impacting changes without explicit approval.
 - Every approved change must include evidence of outcome.
+- No Major/Critical change may start without a passed checkpoint.
 
 ## Change Record Template
 

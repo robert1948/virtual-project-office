@@ -34,6 +34,15 @@ Proposed | Approved | In Progress | Blocked | Completed
 
 ## Decision and Change References
 
+## Change Control Checkpoint
+
+- Change ID:
+- Change Class:
+- Approver:
+- Approval Date:
+- Checkpoint Status: Pass | Fail | Waived
+- Notes:
+
 ## Execution Notes
 
 ## Completion Check
